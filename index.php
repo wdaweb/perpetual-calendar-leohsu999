@@ -249,13 +249,13 @@
    <div id="wrapper" class="wrapper">
       <!-- 上一月 下一月 -->
       <div class="d-flex">
-         <a class="show" href="calendar.php?month=<?php echo $premonth ?>&year=<?php echo $preyear ?>">
+         <a class="show" href="?month=<?php echo $premonth ?>&year=<?php echo $preyear ?>">
             <img src="arrow.png" class="prev">
          </a>
          <span class="prev-word"><?= $month - 1 ?>月</span>
          <!--  顯示 10月-2019年  -->
          <?php echo "<span class='center-word'>" . $year . "-年" . $month . "月</span>"; ?>
-         <a class="show" href="calendar.php?month=<?php echo $nextmonth ?>&year=<?php echo $nextyear ?>">
+         <a class="show" href="?month=<?php echo $nextmonth ?>&year=<?php echo $nextyear ?>">
             <img src="arrow.png" class="next"></a>
          </a>
          <span class="next-word"><?= $month + 1 ?>月</span>
